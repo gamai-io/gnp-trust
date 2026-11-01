@@ -1,0 +1,4 @@
+*.db
+*.jsonl
+__pycache__/
+.pki/
