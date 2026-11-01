@@ -1,3 +1,6 @@
+[![CI](https://github.com/gamai-io/gnp-trust/actions/workflows/ci.yml/badge.svg)](https://github.com/gamai-io/gnp-trust/actions/workflows/ci.yml)
+[![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
+
 # gnp-trust
 
 Minimal **GNP/1** trust plane for machine nodes: one node = one port = one token.
