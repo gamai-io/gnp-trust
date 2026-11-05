@@ -72,7 +72,7 @@ def _hc(node: str, cmd: str, timeout: int = 120) -> dict:
 
 
 def task_id(node: str, cmd: str) -> str:
-    return hashlib.sha1((node + "|" + cmd.strip()).encode("utf-8", "replace")).hexdigest()[:20]
+    return hashlib.sha1((node + "|" + cmd.strip()).encode("utf-8", "replace"), usedforsecurity=False).hexdigest()[:20]
 
 
 def job(node: str, cmd: str, ttl: int = 900, retry: int = 2, timeout: int = 120,
